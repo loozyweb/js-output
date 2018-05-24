@@ -1,0 +1,19 @@
+table {
+  margin: 0 2% 60px;
+  border-top: solid 1px #D3D2D1;
+  font-size: 13px;
+}
+tr {
+  border-bottom: solid 1px #D3D2D1;
+  border-left: solid 1px #D3D2D1;
+  width: 620px;
+}
+th {
+  border-right: solid 1px #D3D2D1;
+  background-color: #FAFAFA;
+}
+th, td {
+  width: 10%;
+  padding: 10px;
+  border-right: solid 1px #D3D2D1;
+}

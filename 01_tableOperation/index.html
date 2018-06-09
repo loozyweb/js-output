@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TableOperation</title>
+    <link rel="stylesheet" href="../common/reset.css" />
+    <link rel="stylesheet" href="../common/default.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./nomal.js"></script>
+  </head>
+  <body>
+    <div class="main_area">
+
+      <table id="playerList">
+        <tr>
+          <th>name</th>
+          <th>position</th>
+        </tr>
+        <tr>
+          <td>Morata</td>
+          <td>ST</td>
+        </tr>
+        <tr>
+          <td>Kimmich</td>
+          <td>RB</td>
+        </tr>
+      </table>
+
+      <div class="inputArea">
+        <form id="input" name="input">
+          <label for="name">name：</label><input id="name" type="text" name="name" value="" />
+          <label for="position">position：</label><input id="position" type="text" name="position" value="" />
+          <input id="add" type="button" name="add" value="add" />
+          <input id="del" type="button" name="del" value="delete" />
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
